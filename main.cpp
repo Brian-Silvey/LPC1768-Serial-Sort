@@ -3,7 +3,6 @@
 
 extern "C" int bubble_sort(int numbers[10], int size, int mode);
 
-// Array of 10 values to sort
 int size;                   // size of the array (MAX 100)
 int numbers[100];           // declare array
 int mode;                   // 0 = ascending sort, 1 = descending sort
